@@ -313,7 +313,7 @@ body::before {
   display: grid;
   grid-template-columns: repeat(4, auto); /* ukuran fix biar ga loncat */
   justify-content: center; /* tengahin */
-  gap: 5px;
+  gap: 7px;
 }
 
 .social-btn {
