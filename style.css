@@ -311,9 +311,9 @@ body::before {
 /* ===== SOCIAL BUTTONS ===== */
 .socials {
   display: grid;
-  grid-template-columns: repeat(4, 60px); /* ukuran fix biar ga loncat */
+  grid-template-columns: repeat(4, auto); /* ukuran fix biar ga loncat */
   justify-content: center; /* tengahin */
-  gap: 4px;
+  gap: 5px;
 }
 
 .social-btn {
