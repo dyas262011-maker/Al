@@ -310,11 +310,10 @@ body::before {
 
 /* ===== SOCIAL BUTTONS ===== */
 .socials {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 per baris */
   gap: 8px;
-  margin-top: 18px;
+  justify-items: center;
 }
 
 .social-btn {
