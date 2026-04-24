@@ -314,6 +314,9 @@ body::before {
   grid-template-columns: repeat(4, auto); /* ukuran fix biar ga loncat */
   justify-content: center; /* tengahin */
   gap: 7px;
+
+.socials {
+  margin-top: 20px; /* ini yang lu butuhin */
 }
 
 .social-btn {
